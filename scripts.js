@@ -5,7 +5,6 @@
 3. Paper will always beat rock.
 4. Tie whereby it could scissor scissor,  rock, rock and  paper, paper. */
 
-
 items = ["rock", "paper", "scissors"];
 function computerPlay() {
     let pickRandomly = Math.floor(Math.random() * items.length);
@@ -17,8 +16,6 @@ function computerPlay() {
         return items[2];
     }
 }
-//console.log(computerPlay());
-
 
 function playRound(playerSelection, computerSelection){
     playerSelection = playerSelection.toLowerCase();
