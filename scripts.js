@@ -77,9 +77,11 @@ function game() {
         } else if (result == "It's a Draw!") {
             console.log(result);
         } else if (result == "Enter a valid selection!") {
-            console.log(`${result} Either enter rock, paper or scissors!`); 
+            console.log(`${result} Either enter rock, paper or scissors!`);
+            i--;
         } else {
             console.log("Invalid selection!");
+            i--;
         }
        
     }
