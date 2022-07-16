@@ -81,7 +81,6 @@ function game() {
             i--;
         } else {
             console.log("Invalid selection!");
-            i--;
         }
        
     }
